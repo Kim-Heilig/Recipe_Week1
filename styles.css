@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(167, 167, 214);
+}
+
+h1 {
+  color:aliceblue;
+    font-size: 3rem;
+      /* Adjust font size */
+      font-family: 'Arial', sans-serif;
+      /* Specify font family */
+      text-align: center;
+      /* Center align text */
+      margin-top: 50px;
+      /* Add top margin */
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      /* Add subtle text shadow */
+}
