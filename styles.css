@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(124, 124, 168);
+  background-color: rgb(112, 191, 220);
+  /* background-color: rgb(124, 124, 168); */
   font-family: Arial, sans-serif;
   line-height: 1.6;
   max-width: 800px;
@@ -15,9 +16,13 @@ body{
   /* Shadow to create the outline effect */
 }
 
+h1, h2, h3, h4, h5, h6 {
 
+  color: #be4d25;
+  /* Replace with your desired color */
+}
 h1 {
-  color:aliceblue;
+  /* color:aliceblue; */
     font-size: 3rem;
       /* Adjust font size */
       font-family: 'Arial', sans-serif;
@@ -30,18 +35,27 @@ h1 {
       /* Add subtle text shadow */
 }
 
-  .image-container {
+  .image-container img {
+      position: relative;
     text-align: left;
     /* Center the image horizontally */
-  }
-
-  .image-container img {
     max-width: 110%;
     /* Ensure the image doesn't exceed its container */
     /* min-width: 110%; */
     height: auto;
     /* Maintain aspect ratio */
   }
+
+    .photo_credit {
+
+      box-sizing: border-box;
+      text-decoration: none;
+      /* Removes underline from the link */
+      color: rgb(251, 248, 248);
+      font-size: 12px;
+    }
+
+
 
 .menu a {
   color: rgb(253, 250, 250);
@@ -82,8 +96,6 @@ h1 {
   overflow: hidden;
   align-items: flex-start;
 }
-
-
 
 .menu a:hover {
   background-color: #ddd;
