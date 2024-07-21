@@ -1,10 +1,18 @@
 body{
-  background-color: rgb(167, 167, 214);
+  background-color: rgb(124, 124, 168);
   font-family: Arial, sans-serif;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+        color: rgb(239, 225, 225);
+          /* Set text color to white */
+  text-shadow:
+  -.5px -.5px 0 black,
+  .5px -.5px 0 black,
+  -.5px .5px 0 black,
+  .5px .5px 0 black;
+  /* Shadow to create the outline effect */
 }
 
 
@@ -23,14 +31,14 @@ h1 {
 }
 
   .image-container {
-    text-align: center;
+    text-align: left;
     /* Center the image horizontally */
   }
 
   .image-container img {
     max-width: 110%;
     /* Ensure the image doesn't exceed its container */
-    min-width: 110%;
+    /* min-width: 110%; */
     height: auto;
     /* Maintain aspect ratio */
   }
@@ -40,27 +48,21 @@ h1 {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   font-style: oblique;
   font-weight: bolder;
   position: relative;
   /* Maintain relative positioning */
   z-index: 1;
   /* Ensure text appears above background image */
-  padding: 1px 20px;
-  /* Adjust padding as needed */
-  border: 2px solid #fff;
+  padding: 10px 60px 10px 60px;
+  /* Adjusts the padding of the menu titles inside boxes */
+  border: 4px solid #fff;
   /* Add border to menu items */
   border-radius: 5px;
   /* Optional: Add rounded corners */
   margin: 0 1px; 
-    background-color: rgba(0, 0, 0, .5);
-  /* Example: semi-transparent black */
-
-
-
-
-
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .menu {
@@ -68,24 +70,17 @@ h1 {
   justify-content: center;
   background-image: url(Mary_Elliott_Cooking-removebg-copy2.png);
   background-size: cover;
-  /* Adjust as needed */
   background-position: center;
-  /* Adjust as needed */
   background-repeat: no-repeat;
-  /* height: 0; */
-  padding-top: 20%;
-  /* Adjust this value to maintain aspect ratio */
+  padding-top: 37%;
   position: relative;
   /* Prevent image from repeating */
-  background-color: #F68924;
-  border: 1px solid #272727;
-  /* Add a 1px solid border */
-  border-radius: 5px;
-  /* Optional: Add rounded corners */
+  /* background-color: #f9aa60; */ /*Took out for now, may put back in later */
+  /* border: 1px solid #272727; */ /*Took out for now, may put back in later */
+  /* border-radius: 5px; Took out for now, may put back in later */
+  /* Optional: Add rounded corners */ /*Took out for now, may put back in later */
   overflow: hidden;
   align-items: flex-start;
-  /* Align items at the top */
-
 }
 
 
