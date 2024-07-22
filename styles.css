@@ -8,12 +8,24 @@ body{
   padding: 20px;
         color: rgb(239, 225, 225);
           /* Set text color to white */
-  text-shadow:
-  -.5px -.5px 0 black,
-  .5px -.5px 0 black,
-  -.5px .5px 0 black,
-  .5px .5px 0 black;
-  /* Shadow to create the outline effect */
+
+}
+
+.left {
+  width: 600;
+  float:left;
+}
+
+.right{
+  width: 600;
+  float: right;
+    padding: 20px;
+}
+/* lines 19 - 23 below from google fonts */
+.custom_font {
+  font-family: "Lilita One", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,39 +33,42 @@ h1, h2, h3, h4, h5, h6 {
   color: #be4d25;
   /* Replace with your desired color */
 }
+
+
 h1 {
-  /* color:aliceblue; */
     font-size: 3rem;
       /* Adjust font size */
       font-family: 'Arial', sans-serif;
       /* Specify font family */
       text-align: center;
       /* Center align text */
-      margin-top: 50px;
+      margin-top: 20px;
       /* Add top margin */
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      text-shadow: 5px -5px 5px rgba(98, 96, 96, 0.397);
       /* Add subtle text shadow */
 }
 
-  .image-container img {
-      position: relative;
-    text-align: left;
-    /* Center the image horizontally */
-    max-width: 110%;
-    /* Ensure the image doesn't exceed its container */
-    /* min-width: 110%; */
-    height: auto;
-    /* Maintain aspect ratio */
-  }
 
-    .photo_credit {
 
-      box-sizing: border-box;
-      text-decoration: none;
-      /* Removes underline from the link */
-      color: rgb(251, 248, 248);
-      font-size: 12px;
-    }
+/* .image-container img {
+    /* position: relative; */
+  /* text-align: left; */
+  /* Center the image horizontally */
+  /* max-width: 110%; */
+  /* Ensure the image doesn't exceed its container */
+  /* min-width: 110%; */
+  /* height: auto; */
+  /* Maintain aspect ratio */
+/* } */ */
+
+.photo_credit {
+
+  box-sizing: border-box;
+  text-decoration: none;
+  /* Removes underline from the link */
+  color: rgb(251, 248, 248);
+  font-size: 12px;
+}
 
 
 
@@ -101,3 +116,4 @@ h1 {
   background-color: #ddd;
   color: #F68924;
 }
+
