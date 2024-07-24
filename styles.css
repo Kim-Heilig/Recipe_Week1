@@ -11,13 +11,17 @@ body{
 
 }
 
+.description{
+  width: 600px;
+}
+
 .left {
-  width: 600;
+  /* width: 600; */
   float:left;
 }
 
 .right{
-  width: 600;
+  /* width: 600; */
   float: right;
     padding: 20px;
 }
