@@ -6,10 +6,11 @@ body{
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-        color: rgb(239, 225, 225);
-          /* Set text color to white */
+        color: rgb(206, 21, 21);  /* Set text color */
 
 }
+
+
 
 .description{
   width: 600px;
@@ -25,7 +26,7 @@ body{
   float: right;
     padding: 20px;
 }
-/* lines 19 - 23 below from google fonts */
+/* lines below from google fonts */
 .custom_font {
   font-family: "Lilita One", sans-serif;
   /* font-weight: 400; */

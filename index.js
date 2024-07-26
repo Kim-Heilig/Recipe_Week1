@@ -1,4 +1,5 @@
 const p = document.createElement('h1');
+p.classList.add("custom_font");
 p.innerText = "Little Sous Chefs";
 document.body.prepend(p);
 
