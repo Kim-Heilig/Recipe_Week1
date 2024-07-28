@@ -12,15 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 </head>
 
-  <!-- the heading on the page that states "Little Sous Chefs" is in the index.js file as a DOM manipulation exercise.  I would like to change the font to match the rest, don't know how to yet. -->
+  <!-- the heading on the page that states "Little Sous Chefs" is in the index.js file as a DOM manipulation exercise. -->
 
 
 <body>
   <div class="menu">
     <a href="#home">Home</a>
-    <a href="#recipes">Recipes</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
   </div>
 
   <h1 class="custom_font">Tiny Chefs, Big Lessons:<br> Dinner Recipes and Life Skills</h1>
@@ -32,63 +32,69 @@
       They will feel accomplished knowing they can participate in all parts of the preparation.</p>
     </div>
 
-  <div>  
-    <div>
-      <img width="600px" src="Roasted_Cauliflower_Broccoli_pic.png" alt="Roasted Cauliflower and Broccoli">
-      <a href="https://kitchenkeys.net/2018/02/19/roasted-cauliflower-broccoli/" class="photo_credit">Photo credit: Kitchen Keys</a>
-    </div>
 
+
+    <div class="content-wrapper">
+      <div class="image-container">
+        <img width="600px" src="Roasted_Cauliflower_Broccoli_pic.png" alt="Roasted Cauliflower and Broccoli">
+        <a href="https://kitchenkeys.net/2018/02/19/roasted-cauliflower-broccoli/" class="photo_credit">Photo credit: Kitchen Keys</a>
+      </div>
+
+
+    <div class="steps">
+      <h3 class="custom_font">Steps</h3>
+      <ol>
+        <li>Preheat oven to 200 C.</li>
+        <li>In a bowl, drizzle the cauliflower & broccoli florets with olive oil & toss until coated. Add the cheese,
+          breadcrumbs,
+          salt & pepper then toss with the veggies.
+          Line a baking tray with parchment paper then arrange the veggies in a single layer; not overlapping or piled on
+          top of each other. .</li>
+        <li>Some breadcrumbs & cheese will remain at the bottom of the bowl, sprinkle them over the veggies.
+          Bake for about 10 minutes then take the tray out of the oven & flip the florets. </li>
+        <li>Continue baking for another 10-15
+          miniutes or until the florets are golden brown & fork tender</li>
+      </ol>
+    </div>
+    </div>
     <div class="ingredients left">
 
       <div class="primary_ingredients">
        <h3 class="custom_font">List of Ingredients</h3>
         <ul>
-          <li>One head of broccoli</li>
-          <li>One head of cauliflower</li>
-          <li>Parmasean Cheese</li>
+          <li><input type="checkbox" id="item1"><label for="item1">One head of broccoli</label></li>
+          <li><input type="checkbox" id="item2"><label for="item2">One head of cauliflower</label></li>
+          <li><input type="checkbox" id="item3"><label for="item3">Parmasean Cheese</label></li>
         </ul>
       </div>
+
+
 
       <div class="pantry_staples">
         <h3 class="custom_font">Pantry Staples</h3>
         <ul> 
-          <li>Olive Oil</li>
-          <li>Garlic Salt</li>
-          <li>Salt</li>
-          <li>Pepper</li>
-          <li>Any seasoning of your choice</li>
+          <li><input type="checkbox">Olive Oil</li>
+          <li><input type="checkbox">Garlic Salt</li>
+          <li><input type="checkbox">Salt</li>
+          <li><input type="checkbox">Pepper</li>
         </ul>
       </div>
 
       <div class = "materials" >
         <h3 class="custom_font">Materials</h3>
          <ul>
-            <li>Knife (consider ones that are more kid friendly)</li>
-            <li>cutting board</li>
-            <li>baking sheet</li>
-            <li>bowl for cuttings</li>
-            <li>mixing bowl</li>
-            <li>mixing spoon</li>
+            <li><input type="checkbox">Knife (consider ones that are more kid friendly)</li>
+            <li><input type="checkbox">cutting board</li>
+            <li><input type="checkbox">baking sheet</li>
+            <li><input type="checkbox">bowl for cuttings</li>
+            <li><input type="checkbox">mixing bowl</li>
+            <li><input type="checkbox">mixing spoon</li>
           </ul>
       </div>
     </div>
     
 
-    <div class="left">
-      <h3 class="custom_font">Steps</h3>
-        <ol>
-          <li>Preheat oven to 200 C.</li>
-          <li>In a bowl, drizzle the cauliflower & broccoli florets with olive oil & toss until coated. Add the cheese, breadcrumbs,
-          salt & pepper then toss with the veggies.
-          Line a baking tray with parchment paper then arrange the veggies in a single layer; not overlapping or piled on
-          top of each other. .</li>
-          <li>Some breadcrumbs & cheese will remain at the bottom of the bowl, sprinkle them over the veggies.
-          Bake for about 10 minutes then take the tray out of the oven & flip the florets. </li>
-          <li>Continue baking for another 10-15
-          miniutes or until the florets are golden brown & fork tender</li>
-        </ol>
 
-    </div>
 
     <div class = "suggestions left">
       <h3 class="custom_font">Suggestions:</h3>
@@ -98,7 +104,7 @@
         <li>Add music (playlist suggestions)</li>
         <li><a href="https://www.chopchopfamily.org/recipes/?recipe_types=dinner">Easy Dinner Recipes for Kids</a></li>
       </ul>
-    </div>
+ 
   <script src="index.js" defer></script>
 </body>
 
